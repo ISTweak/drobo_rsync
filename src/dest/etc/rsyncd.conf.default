@@ -1,0 +1,10 @@
+uid = root
+gid = root
+pid file = /mnt/DroboFS/Shares/DroboApps/rsync/var/run/rsyncd.pid
+
+[Shares]
+        path = /mnt/DroboFS/Shares
+        comment = DroboFS Shares
+        read only = no
+
+
