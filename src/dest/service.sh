@@ -24,7 +24,7 @@ start()
 
 case "$1" in
 start)
-        start_service
+        start
         ;;
 stop)
         stop_service
@@ -32,7 +32,7 @@ stop)
 restart)
         stop_service
         sleep 3
-        start_service
+        start
         ;;
 status)
         status
